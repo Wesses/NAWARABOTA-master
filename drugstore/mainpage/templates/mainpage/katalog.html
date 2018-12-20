@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+{% if people.count > 0 %}
+    <table>
+        <tr><th>Id</th><th>Имя</th><th>Возраст</th></tr>
+        {% for katalog in katalog %}
+        <tr><td>{{ product.id }}</td><td>{{ product.name }}</td><td>{{ product.price }}</td></tr>
+        {% endfor %}
+    </table>
+  {% endif %}
+</body>
+</html>

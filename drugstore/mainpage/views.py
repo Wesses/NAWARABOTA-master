@@ -1,11 +1,5 @@
 from django.shortcuts import render
 from .models import Product
-from django.http import HttpResponseRedirect
-from django.db import models
-# from django.db.models.manager import objects
-
-# Create your views here.
-
 
 def index(request):
 

@@ -1,9 +1,5 @@
 from django.conf.urls import url
 from . import views
-from django.core.paginator import Paginator
-##from django.views.generic import ListView, DetailView
-##from .models import product
-
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
